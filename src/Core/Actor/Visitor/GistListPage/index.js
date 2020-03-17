@@ -21,7 +21,7 @@ const GistList = () => {
   )
 
   return GistDtoList.map(gistDto => {
-      return <Gist key={ gistDto.id } gistDto={ gistDto }/>
+      return <Gist key={ gistDto.id } gistDto={gistDto}/>
     }
   );
 }
