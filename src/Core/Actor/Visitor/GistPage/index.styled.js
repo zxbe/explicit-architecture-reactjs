@@ -14,7 +14,6 @@ export const GistTitle = styled.p`
   text-size-adjust:100%;
   width:auto;
   -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-  transparent
 `;
 
 export const GistDate = styled.span`
